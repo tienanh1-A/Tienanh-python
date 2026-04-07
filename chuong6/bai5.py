@@ -1,0 +1,8 @@
+_list = [1, 2, 3, 4, 5]
+
+min_value = _list[0]
+for i in _list:
+    if i < min_value:
+        min_value = i
+
+print("Giá trị nhỏ nhất là:", min_value)
